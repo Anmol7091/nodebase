@@ -1,8 +1,11 @@
+import { Button } from "@/components/ui/button";
 const Page = ()=>{
   return (
-    <div className="text-red-500 font-extrabold ">
-      Hello world
+    <div className="min-h-screen min-w-screen flex items-center justify-center">
+      <Button variant="outline">Click Me</Button>
+
     </div>
+    
   )
 }
 export default Page;
